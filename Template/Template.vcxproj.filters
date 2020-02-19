@@ -206,5 +206,8 @@
     <ClInclude Include="..\src\Ocean.h">
       <Filter>Game Objects</Filter>
     </ClInclude>
+    <ClInclude Include="Button2.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

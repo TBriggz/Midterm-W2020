@@ -13,8 +13,7 @@ Level1Scene::~Level1Scene()
 
 void Level1Scene::draw()
 {
-	//m_pStartButton->draw();
-	//m_pRollButton->draw();
+	m_pRollButton->draw();
 
 	m_pRollLabel->draw();
 	m_pRoll2Label->draw();
@@ -22,8 +21,8 @@ void Level1Scene::draw()
 
 void Level1Scene::update()
 {
-
-
+	m_pRollButton->setMousePosition(m_mousePosition);
+	m_pRollButton->ButtonClick();
 }
 
 void Level1Scene::clean()
@@ -135,6 +134,10 @@ void Level1Scene::start()
 		glm::vec2(Config::SCREEN_WIDTH * 0.5f, 300.0f));
 	m_pRoll2Label->setParent(this);
 	addChild(m_pRollLabel);
+
+	m_pRollButton = new RollButton();
+	m_pRollButton->setPosition(glm::vec2(Config::SCREEN_WIDTH * 0.5f, Config::SCREEN_HEIGHT * 0.5f));
+	addChild(m_pRollButton);
 }
 
 glm::vec2 Level1Scene::getMousePosition()
