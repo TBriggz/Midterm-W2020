@@ -3,6 +3,8 @@
 #define __LEVEL_1_SCENE__
 
 #include "Scene.h"
+#include "StartButton.h"
+#include "Label.h"
 
 class Level1Scene : public Scene
 {
@@ -21,8 +23,8 @@ public:
 
 private:
 	// game objects
-
-
+	Label* m_pRollLabel;
+	Label* m_pRoll2Label;
 
 	// private data member
 	glm::vec2 m_mousePosition;
