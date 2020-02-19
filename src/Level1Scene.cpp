@@ -126,13 +126,13 @@ void Level1Scene::handleEvents()
 void Level1Scene::start()
 {
 	SDL_Color black = { 0, 0, 0, 255 };
-	m_pRollLabel = new Label("1", "Consolas", 40, black,
-		glm::vec2(Config::SCREEN_WIDTH * 0.5f, 100.0f));
+	m_pRollLabel = new Label("1", "Consolas", 15, black,
+		glm::vec2(Config::SCREEN_WIDTH * 0.1f, 300.0f));
 	m_pRollLabel->setParent(this);
 	addChild(m_pRollLabel);
 
-	m_pRoll2Label = new Label("2", "Consolas", 40, black,
-		glm::vec2(Config::SCREEN_WIDTH * 0.5f, 100.0f));
+	m_pRoll2Label = new Label("2", "Consolas", 15, black,
+		glm::vec2(Config::SCREEN_WIDTH * 0.5f, 300.0f));
 	m_pRoll2Label->setParent(this);
 	addChild(m_pRollLabel);
 }
