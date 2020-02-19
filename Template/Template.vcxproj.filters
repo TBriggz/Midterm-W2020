@@ -108,6 +108,9 @@
     <ClCompile Include="..\src\Ocean.cpp">
       <Filter>Game Objects</Filter>
     </ClCompile>
+    <ClCompile Include="RollButton.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Game.h">
@@ -207,6 +210,9 @@
       <Filter>Game Objects</Filter>
     </ClInclude>
     <ClInclude Include="Button2.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RollButton.h">
       <Filter>Game Objects</Filter>
     </ClInclude>
   </ItemGroup>

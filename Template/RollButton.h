@@ -1,14 +1,14 @@
 #pragma once
-#ifndef __ROLL_BUTTON__
-#define __ROLL_BUTTON__
+#ifndef __START_BUTTON__
+#define __START_BUTTON__
 
 #include "Button.h"
 
-class RollButton : public RollButton
+class StartButton : public Button
 {
 public:
-	RollButton();
-	~RollButton();
+	StartButton();
+	~StartButton();
 
 
 	bool ButtonClick() override;
@@ -16,4 +16,4 @@ private:
 	bool m_isClicked;
 };
 
-#endif /* defined (__START_BUTTON__) */
+#endif /* defined (__ROLL_BUTTON__) */
