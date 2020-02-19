@@ -37,5 +37,5 @@
 //	bool m_mouseButtonClicked;
 //	bool m_mouseOver();
 //};
-//
-//#endif /* defined (__BUTTON__) */
+
+#endif /* defined (__BUTTON__) */

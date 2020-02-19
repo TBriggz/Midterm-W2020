@@ -2,7 +2,7 @@
 #ifndef __START_BUTTON__
 #define __START_BUTTON__
 
-#include "Button.h"
+#include "Button2.h"
 
 class StartButton : public Button
 {
